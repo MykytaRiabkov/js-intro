@@ -82,6 +82,9 @@ let temp = -4
 // Forventet: number
 //            string
 
+console.log("Oppgave 6 (grunnleggende)");
+console.log(typeof hp);
+console.log(typeof firstname);
 
 // Oppgave 7 (grunnleggende)
 // Bruk backticks og ${} til å skrive ut en setning med firstname og hp.
