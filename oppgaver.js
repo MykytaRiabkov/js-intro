@@ -90,6 +90,10 @@ console.log(typeof firstname);
 // Bruk backticks og ${} til å skrive ut en setning med firstname og hp.
 // Forventet: Ola har 70 hp
 
+console.log("Oppgave 7 (grunnleggende)");
+firstname = 'Ola'
+hp = 70
+console.log(`${firstname} har ${hp} hp`)
 
 // Oppgave 8 (middels)
 // Skriv ut 5 + 5, deretter "5" + 5, deretter Number("5") + 5.
