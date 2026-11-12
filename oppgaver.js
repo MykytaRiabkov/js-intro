@@ -213,7 +213,7 @@ console.log("Liftoff!");
 
 console.log("Oppgave 17 (middels)");
 let sum = 0;
-for (i = 1; i <= 100; i++) {sum += i};
+for (let i = 1; i <= 100; i++) {sum += i};
 console.log(sum);
 
 // Oppgave 18 (middels)
@@ -233,7 +233,14 @@ console.log(`${slag} slag`);
 // Tips: tall % 3 === 0 betyr delelig med 3.
 // Forventet: 1, 2, Nord, 4, Lys, Nord, 7, 8, Nord, Lys, 11, Nord, 13, 14, Nordlys
 
-
+console.log("Oppgave 19 (avansert)");
+let tall = 0;
+for (let i = 1; i <= 15; i++) {tall += 1;
+    if (tall % 3 === 0 && tall % 5 === 0) {console.log("Nordlys")}
+    else if (tall % 5 === 0) {console.log("Lys")}
+    else if (tall % 3 === 0) {console.log("Nord")}
+    else {console.log(tall)}
+}
 
 // ---------------- ARRAYS ----------------
 // En array er en liste: const fag = ["Utvikling", "Driftstøtte"];
