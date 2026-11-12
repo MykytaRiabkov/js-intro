@@ -195,7 +195,7 @@ else {console.log("100 kr")};
 //            5
 
 console.log("Oppgave 15 (grunnleggende)");
-for (let i = 0; i <= 5; i++) {console.log(i)}
+for (let i = 0; i <= 5; i++) {console.log(i)};
 
 // Oppgave 16 (grunnleggende)
 // En rakett skal skytes opp fra Andøya. Tell ned fra 10 til 1 med en for-løkke,
@@ -204,13 +204,17 @@ for (let i = 0; i <= 5; i++) {console.log(i)}
 
 console.log("Oppgave 16 (grunnleggende)");
 for (let i = 10; i >= 1; i--) {console.log(i)};
-console.log("Liftoff!")
+console.log("Liftoff!");
 
 // Oppgave 17 (middels)
 // Regn ut summen av alle tallene fra 1 til 100 med en løkke.
 // Tips: let sum = 0; før løkka.
 // Forventet: 5050
 
+console.log("Oppgave 17 (middels)");
+let sum = 0;
+for (i = 1; i <= 100; i++) {sum += i};
+console.log(sum)
 
 // Oppgave 18 (middels)
 // Lag let bossHp = 100. Hvert slag tar 15 hp. Bruk en while-løkke og tell
