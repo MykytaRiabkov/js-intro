@@ -257,10 +257,10 @@ for (let i = 1; i <= 15; i++) {tall += 1;
 // Forventet: Tromsø
 //            5
 
-console.log("Oppgave 20")
+console.log("Oppgave 20");
 const byer = ["Tromsø", "Bodø", "Alta", "Harstad", "Narvik"];
-console.log(byer[0])
-console.log(byer.length)
+console.log(byer[0]);
+console.log(byer.length);
 
 // Oppgave 21 (grunnleggende)
 // Legg til "Hammerfest" med push, og skriv ut den siste byen og det nye antallet.
@@ -268,7 +268,10 @@ console.log(byer.length)
 // Forventet: Hammerfest
 //            6
 
-consol
+console.log("Oppgave 21");
+byer.push("Hammerfest");
+console.log(byer[byer.length - 1]);
+console.log(byer.length);
 
 // Oppgave 22 (middels)
 // Skriv ut alle byene med en for-løkke.
