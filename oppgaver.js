@@ -46,7 +46,7 @@ const PI = 3.14159;
 PI = 3
 console.log(PI)
 */
-console.log("Feilen er at const er fast variabel, og kan ikke endres.");
+console.log("Feilen er at const er en fast variabel, og kan ikke endres.");
 
 // Oppgave 4 (middels)
 // Et spill på Steam koster 200 kr før moms. Lag const MOMS = 0.25 og let pris = 200.
@@ -103,9 +103,12 @@ console.log(`${firstname} har ${hp} hp`)
 //            10
 
 console.log("Oppgave 8 (grunnleggende)");
-console.log(5+5)
-console.log("5"+5)
-console.log(Number("5")+5)
+console.log(5+5);
+console.log("5"+5);
+console.log(Number("5")+5);
+/*
+Fordi når skriver du et tall i anførselstegner, blir det som tekst string, og js prioriterer tekst string, og legger det til den andre tall uten mellomrom som tekst
+*/
 
 // Oppgave 9 (middels)
 // 17 elever skal deles i lag på 4. Bruk / og % .
@@ -114,6 +117,11 @@ console.log(Number("5")+5)
 // Forventet: 4 lag
 //            1 til overs
 
+console.log("Oppgave 9 (middels)")
+overs = Math.floor(17 % 4)
+lag = Math.floor(17 / 4)
+console.log(`${lag} lag`)
+console.log(`${overs} til overs`)
 
 // ---------------- VALG MED IF ----------------
 // if kjører koden bare når betingelsen er sann. else kjører ellers.
