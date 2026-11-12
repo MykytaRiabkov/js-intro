@@ -202,6 +202,9 @@ for (let i = 0; i <= 5; i++) {console.log(i)}
 // og skriv ut "Liftoff!" etter løkka.
 // Forventet: 10, 9, 8 ... 1 (én per linje), så Liftoff!
 
+console.log("Oppgave 16 (grunnleggende)");
+for (let i = 10; i >= 1; i--) {console.log(i)};
+console.log("Liftoff!")
 
 // Oppgave 17 (middels)
 // Regn ut summen av alle tallene fra 1 til 100 med en løkke.
