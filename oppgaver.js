@@ -175,6 +175,13 @@ else {console.log("Dårlige sjanser i kveld")};
 // alle andre betaler 100 kr. Lag let alder og skriv ut prisen.
 // Forventet: alder 8 -> 50 kr,  alder 30 -> 100 kr,  alder 70 -> 60 kr
 
+console.log("Oppgave 14 (avansert)");
+
+let alder = 8;
+
+if (alder < 12) {console.log("50 kr")} 
+else if (alder >= 67) {console.log("60 kr")} 
+else {console.log("100 kr")};
 
 // ---------------- LØKKER ----------------
 // En løkke gjentar kode.
