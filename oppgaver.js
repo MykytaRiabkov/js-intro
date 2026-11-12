@@ -144,7 +144,7 @@ if (temp < 0) {console.log("Kuldegrader")};
 
 console.log("Oppgave 11 (grunnleggende)");
 if (hp <= 0) {console.log("Game over")}
-else (hp >= 0) {console.log("Spillet fortsetter")};
+else {console.log("Spillet fortsetter")};
 
 // Oppgave 12 (middels)
 // const klokka = 21. Bruk if, else if og else:
@@ -156,7 +156,7 @@ console.log("Oppgave 12 (middels)");
 const klokka = 21;
 if (klokka < 10) {console.log("God morgen")}
 else if (klokka < 18) {console.log("God dag")}
-else {console.log("God kveld")}
+else {console.log("God kveld")};
 
 // Oppgave 13 (middels)
 // Det er gode sjanser for nordlys når skydekket er under 30 OG klokka er 18 eller mer.
@@ -164,6 +164,11 @@ else {console.log("God kveld")}
 // Forventet: Gode sjanser for nordlys
 // Test også: skydekke = 80 skal gi: Dårlige sjanser i kveld
 
+console.log("Oppgave 13 (middels)");
+const skydekke = 20;
+const time = 22;
+if (skydekke < 30 && time >= 18) {console.log("Gode sjanser for nordlys")}
+else {console.log("Dårlige sjanser i kveld")};
 
 // Oppgave 14 (avansert)
 // Billett til Fjellheisen: barn under 12 betaler 50 kr, 67 år og eldre betaler 60 kr,
