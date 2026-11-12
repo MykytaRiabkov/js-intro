@@ -214,19 +214,25 @@ console.log("Liftoff!");
 console.log("Oppgave 17 (middels)");
 let sum = 0;
 for (i = 1; i <= 100; i++) {sum += i};
-console.log(sum)
+console.log(sum);
 
 // Oppgave 18 (middels)
 // Lag let bossHp = 100. Hvert slag tar 15 hp. Bruk en while-løkke og tell
 // hvor mange slag som trengs før bossHp er 0 eller mindre.
 // Forventet: 7 slag
 
+console.log("Oppgave 18 (middels)");
+let bossHp = 100;
+let slag = 0;
+while (bossHp > 0) {bossHp -= 15; slag += 1};
+console.log(`${slag} slag`);
 
 // Oppgave 19 (avansert)
 // Skriv ut tallene 1 til 15. Er tallet delelig med 3, skriv "Nord" i stedet.
 // Delelig med 5: "Lys". Delelig med både 3 og 5: "Nordlys".
 // Tips: tall % 3 === 0 betyr delelig med 3.
 // Forventet: 1, 2, Nord, 4, Lys, Nord, 7, 8, Nord, Lys, 11, Nord, 13, 14, Nordlys
+
 
 
 // ---------------- ARRAYS ----------------
