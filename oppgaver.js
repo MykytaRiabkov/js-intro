@@ -176,11 +176,9 @@ else {console.log("Dårlige sjanser i kveld")};
 // Forventet: alder 8 -> 50 kr,  alder 30 -> 100 kr,  alder 70 -> 60 kr
 
 console.log("Oppgave 14 (avansert)");
-
 let alder = 8;
-
-if (alder < 12) {console.log("50 kr")} 
-else if (alder >= 67) {console.log("60 kr")} 
+if (alder < 12) {console.log("50 kr")}
+else if (alder >= 67) {console.log("60 kr")}
 else {console.log("100 kr")};
 
 // ---------------- LØKKER ----------------
@@ -196,6 +194,8 @@ else {console.log("100 kr")};
 //            4
 //            5
 
+console.log("Oppgave 15 (grunnleggende)");
+for (let i = 0; i <= 5; i++) {console.log(i)}
 
 // Oppgave 16 (grunnleggende)
 // En rakett skal skytes opp fra Andøya. Tell ned fra 10 til 1 med en for-løkke,
