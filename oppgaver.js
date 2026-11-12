@@ -69,7 +69,7 @@ console.log("Oppgave 5 (middels)")
 const server_max = 16
 let liv = 3
 const floyahoyden = 671
-let temp = -4
+let temperaturen = -4
 
 // ---------------- TEKST OG TALL ----------------
 // Tekst (string) står i anførselstegn: "Kari". Tall (number) står uten: 17.
@@ -133,6 +133,9 @@ console.log(`${overs} til overs`)
 // const temp = -8. Skriv ut "Kuldegrader" hvis temp er under 0.
 // Forventet: Kuldegrader
 
+console.log("Oppgave 10 (grunnleggende)")
+const temp = -8
+if (temp < 0) {console.log("Kuldegrader")}
 
 // Oppgave 11 (grunnleggende)
 // Bruk hp fra oppgave 2. Hvis hp er 0 eller mindre: "Game over".
