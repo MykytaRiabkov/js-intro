@@ -117,11 +117,11 @@ Fordi når skriver du et tall i anførselstegner, blir det som tekst string, og 
 // Forventet: 4 lag
 //            1 til overs
 
-console.log("Oppgave 9 (middels)")
-overs = Math.floor(17 % 4)
-lag = Math.floor(17 / 4)
-console.log(`${lag} lag`)
-console.log(`${overs} til overs`)
+console.log("Oppgave 9 (middels)");
+overs = Math.floor(17 % 4);
+lag = Math.floor(17 / 4);
+console.log(`${lag} lag`);
+console.log(`${overs} til overs`);
 
 // ---------------- VALG MED IF ----------------
 // if kjører koden bare når betingelsen er sann. else kjører ellers.
@@ -133,18 +133,18 @@ console.log(`${overs} til overs`)
 // const temp = -8. Skriv ut "Kuldegrader" hvis temp er under 0.
 // Forventet: Kuldegrader
 
-console.log("Oppgave 10 (grunnleggende)")
-const temp = -8
-if (temp < 0) {console.log("Kuldegrader")}
+console.log("Oppgave 10 (grunnleggende)");
+const temp = -8;
+if (temp < 0) {console.log("Kuldegrader")};
 
 // Oppgave 11 (grunnleggende)
 // Bruk hp fra oppgave 2. Hvis hp er 0 eller mindre: "Game over".
 // Ellers: "Spillet fortsetter".
 // Forventet: Spillet fortsetter
 
-console.log("Oppgave 11 (grunnleggende)")
+console.log("Oppgave 11 (grunnleggende)");
 if (hp <= 0) {console.log("Game over")}
-else if (hp >= 0) {console.log("Spillet fortsetter")}
+else (hp >= 0) {console.log("Spillet fortsetter")};
 
 // Oppgave 12 (middels)
 // const klokka = 21. Bruk if, else if og else:
@@ -152,6 +152,11 @@ else if (hp >= 0) {console.log("Spillet fortsetter")}
 // Forventet: God kveld
 // Test også: endre klokka til 8 og kjør på nytt. Da skal det stå God morgen.
 
+console.log("Oppgave 12 (middels)");
+const klokka = 21;
+if (klokka < 10) {console.log("God morgen")}
+else if (klokka < 18) {console.log("God dag")}
+else {console.log("God kveld")}
 
 // Oppgave 13 (middels)
 // Det er gode sjanser for nordlys når skydekket er under 30 OG klokka er 18 eller mer.
