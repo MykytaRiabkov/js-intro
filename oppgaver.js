@@ -278,7 +278,7 @@ console.log(byer.length);
 // Forventet: Tromsø, Bodø, Alta, Harstad, Narvik, Hammerfest (én per linje)
 
 console.log("Oppgave 22");
-for (let i = byer.length - 1; i >= 0; i--) {console.log(byer[i])};
+for (let i = 0; i < byer.length; i++) {console.log(byer[i])}
 
 // Oppgave 23 (middels)
 // const temperaturer = [-4, -6, -2, 1, -8, -11, -3];
