@@ -298,8 +298,24 @@ for (let i = 0; i < temperaturer.length; i++) {if (temperaturer[i] < -5) {dager+
 // Forventet: 3
 //            [ 'sverd', 'skjold', 'fiskestang' ]
 
+console.log("Oppgave 24");
+const inventory = ["sverd", "drikk", "skjold", "drikk", "fiskestang", "drikk"];
+let antallDrikk = 0;
+let nyttInventory = [];
+for (let i = 0; i < inventory.length; i++) {
+    if (inventory[i] === "drikk") {antallDrikk++} 
+        else {nyttInventory.push(inventory[i]);}}
+
+console.log(antallDrikk);
+console.log(nyttInventory);
 
 // Oppgave 25 (avansert)
 // inventory er const, men push virker likevel. Hvorfor?
 // Skriv svaret i oppgavearket.
 // Forventet: ingenting i konsollen
+
+console.log("Oppgave 25")
+/* "const" betyr at vi ikke kan gi variabelen en ny verdi. 
+men vi kan fortsatt endre innholdet i en array. 
+derfor fungerer "push()", fordi den legger til et nytt element i arrayen.
+*/
